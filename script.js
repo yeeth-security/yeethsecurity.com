@@ -121,6 +121,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 window.addEventListener('load', () => {
     initBackground();
     handleScrollAnimations();
+    
+    // Set current year in footer
+    const yearElement = document.getElementById('year');
+    if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+    }
 });
 
 window.addEventListener('scroll', handleScrollAnimations);

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yeeth Security - Developer Security Solutions</title>
     <meta property="og:title" content="Yeeth Security - Developer Security Solutions" />
-    <meta property="og:description" content="Empowering developers and organizations to build and operate securely. Innovative tools to protect your software supply chain and development environments." />
+    <meta property="og:description"
+        content="Empowering developers and organizations to build and operate securely. Innovative tools to protect your software supply chain and development environments." />
     <meta property="og:image" content="https://yeeth.xyz/yeeth-logo.png" />
     <meta property="og:url" content="https://yeeth.xyz/" />
     <meta property="og:type" content="website" />
@@ -13,40 +15,53 @@
     <!-- Optional: Twitter card support -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Yeeth Security - Developer Security Solutions" />
-    <meta name="twitter:description" content="Empowering developers and organizations to build and operate securely. Innovative tools to protect your software supply chain and development environments." />
+    <meta name="twitter:description" content="Empowering developers and organizations to build and operate securely." />
     <meta name="twitter:image" content="https://yeeth.xyz/yeeth-logo.png" />
 
-    <link rel="icon" type="image/svg+xml" href="yeeth-logo.png">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="assets/yeeth-logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
+
 <body>
     <canvas id="bg-canvas"></canvas>
-    
+
     <nav class="navbar">
         <div class="nav-container">
             <a href="#" class="nav-logo">
-                <img src="yeeth-logo.png" alt="Yeeth Security">
+                <img src="assets/yeeth-logo.png" alt="Yeeth Security">
                 Yeeth Security
             </a>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
                 <li><a href="#products">Products</a></li>
-                <li><a href="https://blog.yeeth.xyz" target="_blank" rel="noopener noreferrer">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://blog.yeeth.xyz">Blog</a></li>
+                <li><a href="https://calendly.com/yeeth-security/30min">Contact</a></li>
             </ul>
         </div>
     </nav>
 
     <section class="hero" id="about">
         <div class="hero-content">
-            <div class="hero-badge">Developer Security Solutions</div>
             <h1>Yeeth Security</h1>
-            <p>Empowering developers and organizations to build and operate securely. We create innovative tools and solutions to protect your software supply chain and development environments from emerging threats.</p>
+            <p>Security for organizations and developers.<br>Protecting you from emerging threats.</p>
             <div class="cta-buttons">
-                <a href="#products" class="btn-primary">Explore Our Solutions</a>
-                <a href="https://github.com/yeeth-security" class="btn-secondary" target="_blank">View on GitHub</a>
+                <a href="https://blog.yeeth.xyz" class="btn-secondary">View our Blog</a>
+                <a href="https://calendly.com/yeeth-security/30min" class="btn-primary">Book a Call</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="logos-section">
+        <div class="container">
+            <h2 class="logos-title">TRUSTED BY</h2>
+            <div class="logos-scroll">
+                <div class="logos-track">
+                    <img src="assets/openvsx-logo.png" alt="OpenVSX" class="logo-item">
+                    <img src="assets/eclipse-foundation-logo.svg" alt="Eclipse Foundation" class="logo-item">
+                    <img src="assets/kosec-logo.png" alt="Kosec" class="logo-item">
+                </div>
             </div>
         </div>
     </section>
@@ -60,48 +75,55 @@
 
             <div class="product-showcase">
                 <div class="product-header">
-                    <img src="https://raw.githubusercontent.com/bkojusner/dev-guard/main/icons/icon128.png" alt="DevGuard" class="product-icon">
+                    <img src="https://raw.githubusercontent.com/bkojusner/dev-guard/main/icons/icon128.png"
+                        alt="DevGuard" class="product-icon">
                     <div class="product-info">
                         <h3>DevGuard</h3>
                         <p>Extension Security Auditor for VS Code & Cursor</p>
                     </div>
                 </div>
-                
+
                 <div class="product-features">
                     <div class="feature-item">
                         <div class="feature-icon"></div>
                         <div class="feature-text">
-                            <strong>Automatic Scanning:</strong> Continuously monitors and scans for malicious extensions on startup and during runtime
+                            <strong>Automatic Scanning:</strong> Continuously monitors and scans for malicious
+                            extensions on startup and during runtime
                         </div>
                     </div>
                     <div class="feature-item">
                         <div class="feature-icon"></div>
                         <div class="feature-text">
-                            <strong>Real-time Monitoring:</strong> Detects extension changes and automatically re-runs security audits
+                            <strong>Real-time Monitoring:</strong> Detects extension changes and automatically re-runs
+                            security audits
                         </div>
                     </div>
                     <div class="feature-item">
                         <div class="feature-icon"></div>
                         <div class="feature-text">
-                            <strong>Threat Intelligence:</strong> Compares installed extensions against curated lists of known malicious packages
+                            <strong>Threat Intelligence:</strong> Compares installed extensions against curated lists of
+                            known malicious packages
                         </div>
                     </div>
                     <div class="feature-item">
                         <div class="feature-icon"></div>
                         <div class="feature-text">
-                            <strong>Detailed Reports:</strong> Provides comprehensive security reports in output channels with actionable insights
+                            <strong>Detailed Reports:</strong> Provides comprehensive security reports in output
+                            channels with actionable insights
                         </div>
                     </div>
                     <div class="feature-item">
                         <div class="feature-icon"></div>
                         <div class="feature-text">
-                            <strong>One-click Removal:</strong> Offers instant uninstall capabilities for detected malicious extensions
+                            <strong>One-click Removal:</strong> Offers instant uninstall capabilities for detected
+                            malicious extensions
                         </div>
                     </div>
                     <div class="feature-item">
                         <div class="feature-icon"></div>
                         <div class="feature-text">
-                            <strong>Seamless Integration:</strong> Works natively with both VS Code and Cursor extension ecosystems
+                            <strong>Seamless Integration:</strong> Works natively with both VS Code and Cursor extension
+                            ecosystems
                         </div>
                     </div>
                 </div>
@@ -115,18 +137,33 @@
         </div>
     </section>
 
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Secure Your Development Environment?</h2>
+                <p class="cta-description">Schedule a consultation with our security experts to discuss how we can help
+                    protect your organization.</p>
+                <a href="https://calendly.com/yeeth-security/30min" class="btn-cta">
+                    <span class="btn-cta-text">Book a Call</span>
+                    <span class="btn-cta-icon">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <footer class="footer" id="contact">
         <div class="container">
             <div class="footer-links">
-                <a href="https://github.com/yeeth-security" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="https://github.com/bkojusner/dev-guard" target="_blank" rel="noopener noreferrer">DevGuard</a>
-                <a href="https://blog.yeeth.xyz" target="_blank" rel="noopener noreferrer">Blog</a>
-                <a href="mailto:contact@yeeth.xyz">Contact</a>
+                <a href="https://blog.yeeth.xyz">Blog</a>
+                <a href="https://calendly.com/yeeth-security/30min">Contact</a>
+                <a href="https://github.com/yeeth-security">GitHub</a>
+                <a href="https://x.com/YeethSecurity">X (Twitter)</a>
             </div>
-            <p>&copy; 2025 Yeeth Security. All rights reserved.</p>
+            <p>&copy; <span id="year"></span> Yeeth Security. All rights reserved.</p>
         </div>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
